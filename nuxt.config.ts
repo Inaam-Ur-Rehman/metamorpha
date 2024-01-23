@@ -5,6 +5,7 @@ export default defineNuxtConfig({
   modules: ["@nuxtjs/tailwindcss", "nuxt-icon", "@nuxt/image"],
   image: {
     dir: "./assets/images",
+    provider: "ipx",
   },
   vite: {
     css: {
