@@ -5,8 +5,6 @@ export default defineNuxtConfig({
   modules: ["@nuxtjs/tailwindcss", "nuxt-icon", "@nuxt/image"],
   image: {
     dir: "./assets/images",
-    providers: ["netlify"],
-    domains: ["https://subtle-fudge-6b87f7.netlify.app/"],
   },
   routeRules: {
     "/": { prerender: true },
