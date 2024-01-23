@@ -1,0 +1,140 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* 100 – Thin
+200 – Extra Light (Ultra Light)
+300 – Light
+400 – Normal
+500 – Medium
+600 – Semi Bold (Demi Bold)
+700 – Bold
+800 – Extra Bold (Ultra Bold)
+900 – Black (Heavy) */
+
+/* fonts  */
+
+@font-face{
+    font-family: 'Verdana';
+    src: url('~/assets/fonts/Verdana.ttf') format('truetype');
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+}
+@font-face{
+    font-family: 'Verdana Bold';
+    src: url('~/assets/fonts/Verdana-Bold.ttf') format('truetype');
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+}
+
+
+/* verdana pro  */
+
+@font-face{
+    font-family: 'Verdana Pro Light';
+    src: url('~/assets/fonts/VerdanaPro-Light.ttf') format('truetype');
+    font-style: normal;
+    font-weight: 300;
+    font-display: swap;
+}
+@font-face{
+    font-family: 'Verdana Pro Regular';
+    src: url('~/assets/fonts/VerdanaPro-Regular.ttf') format('truetype');
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+}
+@font-face{
+    font-family: 'Verdana Pro Semi Bold';
+    src: url('~/assets/fonts/VerdanaPro-SemiBold.ttf') format('truetype');
+    font-style: normal;
+    font-weight: 600;
+    font-display: swap;
+}
+@font-face{
+    font-family: 'Verdana Pro Bold';
+    src: url('~/assets/fonts/VerdanaPro-Bold.ttf') format('truetype');
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+}
+
+/* verdana pro cond */
+
+@font-face{
+    font-family: 'Verdana Pro Cond Light';
+    src: url('~/assets/fonts/VerdanaPro-CondLight.ttf') format('truetype');
+    font-style: normal;
+    font-weight: 300;
+    font-display: swap;
+}
+@font-face{
+    font-family: 'Verdana Pro Cond Regular';
+    src: url('~/assets/fonts/VerdanaPro-CondRegular.ttf') format('truetype');
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+}
+@font-face{
+    font-family: 'Verdana Pro Cond Semi Bold';
+    src: url('~/assets/fonts/VerdanaPro-CondSemiBold.ttf') format('truetype');
+    font-style: normal;
+    font-weight: 600;
+    font-display: swap;
+}
+@font-face{
+    font-family: 'Verdana Pro Cond Bold';
+    src: url('~/assets/fonts/VerdanaPro-CondBold.ttf') format('truetype');
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+}
+@font-face{
+    font-family: 'Verdana Pro Cond Black';
+    src: url('~/assets/fonts/VerdanaPro-CondBlack.ttf') format('truetype');
+    font-style: normal;
+    font-weight: 900;
+    font-display: swap;
+}
+
+body{
+    font-family: 'Verdana', sans-serif;
+}
+/* a that has svg  */
+
+a:hover{
+    text-decoration: underline;
+    text-underline-offset: 4px;
+    transition: all 0.3s ease-in-out;
+    text-decoration-thickness: 2px;
+    text-decoration-color: #0F0147;
+}
+
+a:has(svg):hover{
+    text-decoration: none;
+    transform: scale(1.1);
+    transition: all 0.3s ease-in-out;
+}
+
+/* a that has type button  */
+
+a[type="button"]:hover{
+    text-decoration: none;
+    transform: scale(1.1);
+    transition: all 0.3s ease-in-out;
+}
+
+.card{
+    will-change: transform,opacity;
+}
+
+nav .router-link-active{
+    text-decoration: underline;
+    text-underline-offset: 4px;
+    transition: all 0.3s ease-in-out;
+    text-decoration-thickness: 2px;
+    text-decoration-color: #0F0147;
+}
