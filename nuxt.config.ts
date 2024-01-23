@@ -4,7 +4,7 @@ export default defineNuxtConfig({
   css: ["~/assets/css/global.css", "~/assets/scss/main.scss"],
   modules: ["@nuxtjs/tailwindcss", "nuxt-icon", "@nuxt/image"],
   image: {
-    dir: "assets/images",
+    dir: "./assets/images",
   },
   vite: {
     css: {
