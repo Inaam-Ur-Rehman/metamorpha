@@ -6,6 +6,10 @@ export default defineNuxtConfig({
   image: {
     dir: "./assets/images",
     provider: "ipx",
+    domains: ["https://subtle-fudge-6b87f7.netlify.app/"],
+  },
+  routeRules: {
+    "/": { prerender: true },
   },
   vite: {
     css: {
