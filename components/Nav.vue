@@ -66,11 +66,15 @@ const open = ref(false);
     <div class="flex items-center justify-between w-full">
       <NuxtLink href="/">
         <NuxtImg
-          format="webp"
           :placeholder="
-            img(`/logo.svg`, { height: 30, format: 'png', blur: 2, q: 30 })
+            img(`/images/logo.svg`, {
+              height: 30,
+              format: 'png',
+              blur: 2,
+              q: 30,
+            })
           "
-          src="/logo.svg"
+          src="/images/logo.svg"
           alt="Logo"
           width="240"
           quality="100"

@@ -3,9 +3,6 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   css: ["~/assets/css/global.css", "~/assets/scss/main.scss"],
   modules: ["@nuxtjs/tailwindcss", "nuxt-icon", "@nuxt/image"],
-  image: {
-    dir: "./assets/images",
-  },
   routeRules: {
     "/": { prerender: true },
   },

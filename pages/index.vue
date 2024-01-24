@@ -65,7 +65,7 @@
       content="Metamorpha helpt organisaties om de complexiteit van de huidige tijd te omarmen en te benutten. Wij begeleiden je bij het ontwikkelen van een strategie die past bij de nieuwe wereld en bij het creëren van een organisatiecultuur die wendbaar is en waarin mensen floreren."
       link="/"
       linkText="MEER INFORMATIE"
-      image="/card1.png"
+      image="/images/card1.png"
       icon="ep:info-filled"
     />
     <Card
@@ -74,7 +74,7 @@
       content="Metamorpha helpt organisaties om de complexiteit van de huidige tijd te omarmen en te benutten. Wij begeleiden je bij het ontwikkelen van een strategie die past bij de nieuwe wereld en bij het creëren van een organisatiecultuur die wendbaar is en waarin mensen floreren."
       link="/"
       linkText="MEER INFORMATIE"
-      image="/card2.png"
+      image="/images/card2.png"
       icon="ep:info-filled"
     />
     <Card
@@ -83,7 +83,7 @@
       content="Metamorpha helpt organisaties om de complexiteit van de huidige tijd te omarmen en te benutten. Wij begeleiden je bij het ontwikkelen van een strategie die past bij de nieuwe wereld en bij het creëren van een organisatiecultuur die wendbaar is en waarin mensen floreren."
       link="/"
       linkText="BESTEL NU"
-      image="/book.png"
+      image="/images/book.png"
       icon="bitcoin-icons:cart-outline"
     />
   </Bounded>

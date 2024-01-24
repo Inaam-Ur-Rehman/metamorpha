@@ -10,7 +10,7 @@
         ></span>
       </h1>
       <ImageCard
-        src="/section-1.png"
+        src="/images/section-1.png"
         alt="Leven in transitie"
         width="100%"
         height="auto"
@@ -44,7 +44,7 @@
 
       <p class="quote">“Leef je volle leven.”</p>
       <ImageCard
-        src="/section-2.png"
+        src="/images/section-2.png"
         alt="Leven in transitie"
         height="550px"
         width="620px"
@@ -102,9 +102,6 @@
         </div>
       </ImageCard>
     </Bounded>
-    <div class="container">
-      <h1>Hello</h1>
-    </div>
   </div>
 </template>
 

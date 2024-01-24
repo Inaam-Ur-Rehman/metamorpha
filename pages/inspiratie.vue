@@ -3,7 +3,7 @@
     <div class="grid w-full grid-cols-1 lg:grid-cols-2">
       <div class="">
         <NuxtImg
-          src="/inspiratie.png"
+          src="/images/inspiratie.png"
           alt="inspiratie"
           width="100%"
           height="100%"
