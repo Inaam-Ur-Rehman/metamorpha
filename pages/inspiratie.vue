@@ -38,14 +38,14 @@
             <div class="">
               <BtnWithLogo
                 btn-text="Download"
-                href="/"
+                href="/download-form"
                 logo="system-uicons:download"
                 color="default"
                 class="lg:hidden"
               />
               <BtnWithLogo
                 btn-text="Download de gebruiksaanwijzing"
-                href="/"
+                href="/download-form"
                 logo="system-uicons:download"
                 color="default"
                 class="hidden lg:flex"

@@ -95,6 +95,7 @@ const open = ref(false);
         v-for="(item, index) in menu"
         :key="index"
         :href="item.url"
+        @click="open = false"
         class="cursor-pointer"
       >
         {{ item.label }}

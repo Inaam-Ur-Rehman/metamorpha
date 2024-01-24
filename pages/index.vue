@@ -16,6 +16,7 @@
       autoplay
       muted
       loop
+      poster="/images/bg-video.png"
       id="myVideo"
       class="object-cover w-full max-h-screen min-h-screen"
     >
