@@ -16,7 +16,7 @@
       autoplay
       muted
       loop
-      poster="/images/bg-video.png"
+      poster="/images/bg-video.webp"
       id="myVideo"
       class="object-cover w-full max-h-screen min-h-screen"
     >
